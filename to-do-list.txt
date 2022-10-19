@@ -1,0 +1,5 @@
+1. Funnels on the ends of striplines where there is a transition to small traces. 
+2. Holes for mounting pogo-pin boards OR a solution that allows for a mechanical holding mechanism to reference this thick PCB. 
+3. Optional grounding path for the capacitively coupled anode to the gnd planes in this board, possibly integrated with the mechanical mechanism above - but note that it should have the option of being electrically isolated from the LAPPD internal anode, as in reality this should probably just be connected to HV ground return. 
+4. Draw a schematic for HV filtering and how the GND of this board should be connected, possibly capacitively, to the HV ground somewhere. Put in a mechanism for attaching HV gnd (shields of cables or a wire from HV filter box) to this board, possibly through passive components. 
+5. 

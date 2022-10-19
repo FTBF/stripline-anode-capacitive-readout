@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "pad_64in-rescue")(type "Legacy")(uri "X:/Jacky_Serious/大学/2020/2020 3Summer/Frish Lab/Jacky's design/kicad_files/pad_64in/pad_64in-rescue.lib")(options "")(descr ""))
+  (lib (name "stripline_anode-rescue")(type "Legacy")(uri "${KIPRJMOD}/stripline_anode-rescue.lib")(options "")(descr ""))
+  (lib (name "stripline_anode-cache")(type "Legacy")(uri "X:/Jacky_Serious/大学/2020/2020 3Summer/Frish Lab/Jacky's design/kicad_files/Version 0/stripline_anode/stripline_anode-cache.lib")(options "")(descr ""))
+  (lib (name "qrm8-078-05.0-l-d-a")(type "KiCad")(uri "/Users/ejangelico/Documents/Stanford/LAPPD/Anodes/stripline-anode-capacitive-readout/symbols/qrm8-078-05.0-l-d-a.kicad_sym")(options "")(descr ""))
+)
