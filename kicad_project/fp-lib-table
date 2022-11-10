@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "kicadfootprints")(type "KiCad")(uri "/Users/ejangelico/Documents/Stanford/LAPPD/Anodes/stripline-anode-capacitive-readout/kicadfootprints.pretty")(options "")(descr ""))
+  (lib (name "stripline-anode-footprints")(type "KiCad")(uri "/Users/ejangelico/Documents/Stanford/LAPPD/Anodes/stripline-anode-capacitive-readout/stripline-anode-footprints.pretty")(options "")(descr ""))
+)

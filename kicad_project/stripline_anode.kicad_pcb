@@ -1,7 +1,7 @@
 (kicad_pcb (version 20211014) (generator pcbnew)
 
   (general
-    (thickness 1.5748)
+    (thickness 1.6)
   )
 
   (paper "C")
@@ -42,6 +42,27 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (thickness 0.274) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "In1.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 2" (type "prepreg") (thickness 0.274) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "In2.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 3" (type "core") (thickness 0.274) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "In3.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 4" (type "prepreg") (thickness 0.274) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "In4.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 5" (type "core") (thickness 0.274) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (grid_origin 33.7185 71.9455)
@@ -6886,6 +6907,20 @@
         (xy 255.94395 100.942256)
         (xy 255.94395 92.27697)
         (xy 255.98355 92.23737)
+      )
+    )
+  )
+  (zone (net 31) (net_name "/c10") (layer "F.Cu") (tstamp 8c6625bc-46b7-4824-be52-b383d50003b6) (hatch edge 0.508)
+    (connect_pads (clearance 1.905))
+    (min_thickness 0.508)
+    (fill (thermal_gap 0.762) (thermal_bridge_width 0.762))
+    (polygon
+      (pts
+        (xy 376.3985 132.5155)
+        (xy 377.033177 134.870547)
+        (xy 372.413698 134.87034)
+        (xy 373.0985 132.4655)
+        (xy 374.7185 129.8955)
       )
     )
   )

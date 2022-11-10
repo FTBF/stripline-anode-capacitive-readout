@@ -1,4 +1,4 @@
-20247739835621367
+20254412301501608
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56531,6 +56531,13 @@ solder jumper open
 0
 5
 3
+LAPPD-readouts
+stripline_30
+
+
+0
+1
+1
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -85728,6 +85735,27 @@ SAMTEC_QRM8-078-05.0-L-D-A
 0
 165
 165
+stripline-anode-footprints
+SAMTEC_QRF8-078-05.0-X-D-A
+
+
+0
+165
+165
+stripline-anode-footprints
+SAMTEC_QRM8-078-05.0-L-D-A
+
+
+0
+165
+165
+stripline-anode-footprints
+stripline_30
+
+
+0
+1
+1
 switches
 SW_100SP1T1B1M1QEH
 
