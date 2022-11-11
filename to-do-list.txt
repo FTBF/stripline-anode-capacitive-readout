@@ -1,6 +1,6 @@
-1. Funnels on the ends of striplines where there is a transition to small traces. 
+1. Funnels on the ends of striplines where there is a transition to small traces. (DONE)
 
-2. Mechanical holding system:
+2. Mechanical holding system: (Added pogo pin board mounting holes)
 	- It applies spring force between PCB and anode lip of LAPPD
 	- It makes the electrical connection between internal LAPPD anode and GND, either HV gnd or analog ground of readout board
 	- Possible hardware is RF finger stock
