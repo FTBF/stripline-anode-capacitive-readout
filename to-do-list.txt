@@ -1,16 +1,15 @@
 1. Funnels on the ends of striplines where there is a transition to small traces. (DONE)
 
 2. Mechanical holding system: (Added pogo pin board mounting holes)
-	- It applies spring force between PCB and anode lip of LAPPD
-	- It makes the electrical connection between internal LAPPD anode and GND, either HV gnd or analog ground of readout board
-	- Possible hardware is RF finger stock
+	- Uses pogo pin board from Incom (DONE)
 
 
-3. A coupling mechanism between internal anode to GND, or HV gnd to PCB gnd, with passive component options. 
-	- Possible idea: have the entire HV filter/divider on this PCB 
+3. High voltage divider circuit directly on readout board
+	- Study the proper coupling between supply and RF grounds. 
 
-4. Draw a schematic for HV filtering and how the GND of this board should be connected, possibly capacitively, to the HV ground somewhere. Put in a mechanism for attaching HV gnd (shields of cables or a wire from HV filter box) to this board, possibly through passive components. 
+5. Include a surface spring mount SMA jack "tap" on two strips
 
-5. Include a pad "tap" on two strips
-
-6. Think of solutions to avoid super thick FR-4 boards. Revisit impedances and capacitances between layers. 
+6. (next iteration) Think of solutions to avoid super thick FR-4 boards. Revisit impedances and capacitances between layers. 
+	- Samtec connector on one side and extend with a cable
+	- Two boards that are soldered to one another to build the thickness (or second board, wraparound board, is thin traces with close gnd plane)
+	- Special ground plane patterning 
