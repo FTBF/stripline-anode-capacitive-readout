@@ -1,0 +1,4 @@
+.DS_Store
+*.log
+*.raw
+kicad_project/fp-info-cache
